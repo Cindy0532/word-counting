@@ -1,0 +1,36 @@
+1. word split--function of words:
+
+Concept Definition:
+
+char == [CHAR] (CHAR is defined as all characters)
+blank == [space, line break, tab]
+	
+TEXT == seq char 
+(seq is a predefined function, meaning a sequence of elements from its set-type argument) 
+SPACE == seq1 blank 
+WORD == seq1 (char \ blank)
+
+Note: TEXT includes the empty sequence, but SPACE and WORD must have at least one character, so we declare them to be seq1 (non-empty sequences).
+
+Requirement of function words:
+
+words: TEXT -> seq WORD 
+	 	 
+\forall s: SPACE; w: WORD; l,r: TEXT 
+    	words  <> = <> &
+    	words  s = <> &
+    	words  w = < w > &
+    	words (sr) = words r &
+    	words (ls) = words l &
+    	words (lsr) = words l + words r
+
+2. word count -- function of wc:
+
+Requirement of function wc:
+
+wc: TEXT -> N 	 
+ 
+\forall file: TEXT
+ 
+wc file = # (words file)
+
