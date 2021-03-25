@@ -1,4 +1,5 @@
-1. word split--function of words:
+
+1. word split
 
 Concept Definition:
 
@@ -24,7 +25,7 @@ words: TEXT -> seq WORD
     	words (ls) = words l &
     	words (lsr) = words l + words r
 
-2. word count -- function of wc:
+2. word count 
 
 Requirement of function wc:
 
@@ -33,4 +34,24 @@ wc: TEXT -> N
 \forall file: TEXT
  
 wc file = # (words file)
+
+3. Line count 
+
+Requirement of function line_count:
+
+line_count: TEXT -> N 
+\forall file: TEXT
+
+line_count file = #(lines file)
+
+4. character count
+
+Requirement of function char_count:
+
+char_count: TEXT -> Char
+
+\forall file: TEXT
+
+char_count file = #(chars file)
+
 
