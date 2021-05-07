@@ -54,4 +54,21 @@ char_count: TEXT -> Char
 
 char_count file = #(chars file)
 
+5. replacement
+
+Requirement of function replacement:
+
+replacement: TEXT -> TEXT
+
+\forall file: TEXT
+
+input oldWORD, new WORD
+
+oldWORD -> (START)
+
+newWORD -> (TEXT)
+
+replacment file = (TEXT)
+
+
 

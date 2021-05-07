@@ -1,0 +1,6 @@
+projectKey=WordStatistics
+serverUrl=http://localhost:9000
+serverVersion=8.9.0.43852
+dashboardUrl=http://localhost:9000/dashboard?id=WordStatistics
+ceTaskId=AXlGqNfL_rqB605QeUBE
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXlGqNfL_rqB605QeUBE
